@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress standard">
+    <rule ref="WordPress">
+        <exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
+        <exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
+        <exclude name="Generic.Files.LineEndings.InvalidEOLChar"/>
+    </rule>
+    <rule ref="Squiz.Commenting.FunctionComment.Missing">
+        <exclude-pattern>./tests/*</exclude-pattern>
+    </rule>
+    <rule ref="Security"/>
+</ruleset>
