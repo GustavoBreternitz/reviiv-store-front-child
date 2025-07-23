@@ -14,12 +14,12 @@ cd wp-content/themes/
 
 2. Realize o clone repositório:
 ```
-git clone https://github.com/GustavoBreternitz/reviiv-store-front-child.git
+git clone https://github.com/GustavoBreternitz/storefront-child.git
 ```
 
 3. Acesse a pasta do tema:
 ```
-cd reviiv-store-front-child/
+cd storefront-child/
 ```
 4. Execute a instalação do composer com o comando:
 ```
